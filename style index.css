@@ -1,0 +1,100 @@
+
+/* Jamlovchi */
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+}
+/* Head */
+
+.header1{
+    display: flex;
+    width: 1100px;
+    height: 200px;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(11, 11, 85);
+    
+}
+
+.header2 span{
+    color: rgb(122, 122, 32);
+}
+
+.header3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    right:20px;
+}
+
+/* Tana */
+
+.header4{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header5{
+    display: flex;
+    flex-direction: column;
+}
+
+.header5 span{
+    border-top: 3px solid rgb(128, 128, 37);
+}
+
+.header5 button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(169, 169, 49);
+    width: 100px;
+}
+
+.boxicons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 20px;
+    
+}
+
+.header6{
+    display: flex;
+}
+
+.box{
+    position: relative;
+    border: 4px solid rgb(151, 151, 48);
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+img{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+
+
