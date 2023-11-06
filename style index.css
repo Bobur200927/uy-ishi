@@ -39,6 +39,10 @@ body{
     right:20px;
 }
 
+.header3 p{
+    color: rgb(37, 37, 120);
+}
+
 /* Tana */
 
 .header4{
@@ -65,6 +69,10 @@ body{
     border-radius: 10px;
     background-color: rgb(169, 169, 49);
     width: 100px;
+}
+
+.header5 p{
+    color:  rgb(23, 23, 98);
 }
 
 .boxicons{
